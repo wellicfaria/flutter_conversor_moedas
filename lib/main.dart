@@ -3,11 +3,8 @@ import 'package:http/http.dart' as http;
 
 const url_api = "https://api.hgbrasil.com/finance";
 
-
 void main() {
-  runApp(
-    MaterialApp(
-      home: Container(),
-    )
-  );
+  runApp(MaterialApp(
+      home: Container(
+          child: Text("maria", style: TextStyle(color: Colors.white)))));
 }
